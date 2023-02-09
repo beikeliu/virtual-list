@@ -8,5 +8,8 @@ export default defineConfig({
     resolvers: [
       AntDesignVueResolver(),
     ],
-  }),]
+  }),],
+  optimizeDeps: {
+    include:["ant-design-vue/es", "ant-design-vue/es/button/style/css", "ant-design-vue/es/checkbox/style/css", "ant-design-vue/es/input/style/css"]
+  }
 })
