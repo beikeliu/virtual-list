@@ -1,5 +1,5 @@
 # virtual-list
-渲染10万条复选框数据，丝滑流畅～
+预览地址：https://beikeliu.github.io/virtual-list/
 
 ```bash
 npm i
